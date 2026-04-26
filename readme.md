@@ -156,26 +156,69 @@ Score         COUNT         SUM           AVG
 ## 📁 Project Structure
 
 ```
-Distributed-Query-Engine/
-│
-├── Src/
-│   ├── Execution_Engine/
-│   ├── Map_Reduce/
-│   ├── SQL_Server/
-│   ├── Parser/
-│   ├── Optimizer/
-│   ├── Analytics/
-│   ├── config/
-│   └── main.py
+Miniature MAP-REDUCE/
 │
 ├── Data/
-├── SQL/
-├── Results/
-├── assets/
-│   └── architecture.png
+│   ├── Processed Data/
+│   ├── Raw Data/
 │
-├── README.md
-├── requirements.txt
+├── Data Processing Stage/
+│   └── processor.ipynb
+│
+├── Results/
+│   ├── metrics.json
+│   └── report.txt
+│
+├── SQL/
+│   ├── Queries.sql
+│   └── test_cases.sql
+│
+├── Src/
+│   │
+│   ├── Analytics/
+│   │   ├── __pycache__/
+│   │   ├── dashboard.py
+│   │   ├── metrics.py
+│   │   └── report.py
+│   │
+│   ├── config/
+│   │   ├── __pycache__/
+│   │   ├── db_config.py
+│   │   ├── paths.py
+│   │   └── settings.py
+│   │
+│   ├── Execution_Engine/
+│   │   ├── __pycache__/
+│   │   ├── context.py
+│   │   └── engine.py
+│   │
+│   ├── Map_Reduce/
+│   │   ├── __pycache__/
+│   │   ├── mapper.py
+│   │   ├── reducer.py
+│   │   ├── shuffle.py
+│   │   └── splitter.py
+│   │
+│   ├── Optimizer/
+│   │   ├── __pycache__/
+│   │   └── optimizer.py
+│   │
+│   ├── Parser/
+│   │   ├── __pycache__/
+│   │   └── sql_parser.py
+│   │
+│   ├── SQL_Server/
+│   │   ├── __pycache__/
+│   │   ├── adapter.py
+│   │   ├── connection.py
+│   │   ├── executor.py
+│   │   ├── loader.py
+│   │   ├── metrics.py
+│   │   └── translator.py
+│   │
+│   └── Utils/
+│       ├── bootstrap.py
+│       └── main.py
 ```
 
 ---
@@ -185,8 +228,8 @@ Distributed-Query-Engine/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd Distributed-Query-Engine
+git clone <https://github.com/RiddhiDhara/Hadoop_Mini_Map_Reduce_Implementation>
+cd Miniature MAP-REDUCE
 ```
 
 ---
@@ -199,7 +242,13 @@ pip install -r requirements.txt
 
 ---
 
-### 3️⃣ Run the engine
+### 3️⃣ SQL SERVER MANAGEMENT STUDIO (SSMS) Set-up [ One Time ]
+
+```bash
+python bootstrap.py
+```
+
+### 4️⃣ Run the engine
 
 ```bash
 cd Src
@@ -208,7 +257,7 @@ python main.py
 
 ---
 
-### 4️⃣ Launch dashboard
+### 5️⃣ Launch dashboard
 
 ```bash
 streamlit run Analytics/dashboard.py
