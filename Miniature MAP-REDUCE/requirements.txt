@@ -1,0 +1,21 @@
+# Core Data Processing
+
+pandas==2.2.2
+numpy==1.26.4
+
+# Database Connectivity
+
+pyodbc==5.1.0
+
+# Dashboard
+
+streamlit==1.35.0
+
+# System Metrics
+
+psutil==5.9.8
+
+# (Optional but useful)
+
+python-dateutil==2.9.0.post0
+pytz==2024.1

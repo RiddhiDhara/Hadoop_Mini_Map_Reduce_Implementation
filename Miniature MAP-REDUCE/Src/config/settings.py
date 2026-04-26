@@ -1,0 +1,8 @@
+# config/settings.py
+
+NUM_PARTITIONS = 8
+NUM_REDUCERS = 4
+NUM_THREADS = 4
+
+ENABLE_SQL_SERVER = True
+ENABLE_MAPREDUCE = True

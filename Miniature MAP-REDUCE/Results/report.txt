@@ -1,0 +1,32 @@
+=========== QUERY PERFORMANCE REPORT ===========
+
+SYSTEM INFORMATION
+-----------------------------------------------
+os: Windows 10
+processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+cpu_cores_physical: 2
+cpu_cores_logical: 4
+total_ram_gb: 11.73
+python_version: 3.9.6
+
+EXECUTION CONFIG
+-----------------------------------------------
+num_partitions: 8
+num_reducers: 4
+num_threads: 4
+
+ENGINE METRICS
+-----------------------------------------------
+
+MapReduce:
+  time_sec: 18.0652
+  rows_processed: 5
+
+SQL Server:
+  time_sec: 0.7287
+  rows_processed: 5
+  details: {'execution_time_sec': 0.7287, 'cpu_usage': 79.8}
+
+SUMMARY
+-----------------------------------------------
+speedup (MR / SQL): 24.79
