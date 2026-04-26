@@ -6,6 +6,8 @@ This is a guide to show where the processed_data.csv file is stored after the ra
 ---
 
 ## 🏗️ Processed_data.csv file structure
+
+```
 Mini MapReduce/
 │
 ├── Data/
@@ -15,7 +17,8 @@ Mini MapReduce/
 │       ├── processed_data.csv
 ├── Data Processing Stage/
     ├── processor.ipynb
-
+    
+```
 ---
 
 ## ⚙️ Process Flow
