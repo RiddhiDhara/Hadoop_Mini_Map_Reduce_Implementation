@@ -19,14 +19,14 @@ ENGINE METRICS
 -----------------------------------------------
 
 MapReduce:
-  time_sec: 18.0652
+  time_sec: 12.157
   rows_processed: 5
 
 SQL Server:
-  time_sec: 0.7287
+  time_sec: 0.788
   rows_processed: 5
-  details: {'execution_time_sec': 0.7287, 'cpu_usage': 79.8}
+  details: {'execution_time_sec': 0.7878, 'cpu_usage': 56.5}
 
 SUMMARY
 -----------------------------------------------
-speedup (MR / SQL): 24.79
+speedup (MR / SQL): 15.43

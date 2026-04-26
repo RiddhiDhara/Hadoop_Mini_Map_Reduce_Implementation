@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-04-26 15:24:10.197679",
+    "timestamp": "2026-04-26 21:24:25.295575",
     "system_info": {
         "os": "Windows 10",
         "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
@@ -15,19 +15,19 @@
     },
     "engine_metrics": {
         "MapReduce": {
-            "time_sec": 18.0652,
+            "time_sec": 12.157,
             "rows_processed": 5
         },
         "SQL Server": {
-            "time_sec": 0.7287,
+            "time_sec": 0.788,
             "rows_processed": 5,
             "details": {
-                "execution_time_sec": 0.7287,
-                "cpu_usage": 79.8
+                "execution_time_sec": 0.7878,
+                "cpu_usage": 56.5
             }
         }
     },
     "summary": {
-        "speedup (MR / SQL)": 24.79
+        "speedup (MR / SQL)": 15.43
     }
 }
