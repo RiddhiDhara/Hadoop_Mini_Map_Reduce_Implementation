@@ -345,7 +345,7 @@ All configurations are centralized:
 
 ## 👤 Author
 
-**Riddhi Dhara**
+**Riddhi Dhara**  
 Software Engineer
 
 ---
