@@ -17,7 +17,7 @@ Mini MapReduce/
 │       ├── processed_data.csv
 ├── Data Processing Stage/
     ├── processor.ipynb
-    
+
 ```
 ---
 
@@ -30,7 +30,10 @@ Mini MapReduce/
 ---
 
 ## 💾 Output Location
+
+```
 /Data/Processed Data/
+```
 
 ---
 
